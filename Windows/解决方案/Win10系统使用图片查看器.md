@@ -1,0 +1,53 @@
+将下述文本保存为 .reg 文件后执行
+
+```
+Windows Registry Editor Version 5.00
+
+; Change Extension's File Type
+
+[HKEY_CURRENT_USER\Software\Classes\.jpg]
+
+@="PhotoViewer.FileAssoc.Tiff"
+
+; Change Extension's File Type
+
+[HKEY_CURRENT_USER\Software\Classes\.jpeg]
+
+@="PhotoViewer.FileAssoc.Tiff"
+
+; Change Extension's File Type
+
+[HKEY_CURRENT_USER\Software\Classes\.gif]
+
+@="PhotoViewer.FileAssoc.Tiff"
+
+; Change Extension's File Type
+
+[HKEY_CURRENT_USER\Software\Classes\.png]
+
+@="PhotoViewer.FileAssoc.Tiff"
+
+; Change Extension's File Type
+
+[HKEY_CURRENT_USER\Software\Classes\.bmp]
+
+@="PhotoViewer.FileAssoc.Tiff"
+
+; Change Extension's File Type
+
+[HKEY_CURRENT_USER\Software\Classes\.pcx]
+
+@="PhotoViewer.FileAssoc.Tiff"
+
+; Change Extension's File Type
+
+[HKEY_CURRENT_USER\Software\Classes\.tiff]
+
+@="PhotoViewer.FileAssoc.Tiff"
+
+; Change Extension's File Type
+
+[HKEY_CURRENT_USER\Software\Classes\.ico]
+
+@="PhotoViewer.FileAssoc.Tiff"
+```
